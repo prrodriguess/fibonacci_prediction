@@ -3,6 +3,7 @@ function fibonacciProjection(n) {
   let currentValue = 1;
   let previousValue = 0;
 
+
   if (n === 1) {
     return {
       sequence: fibSequence,
